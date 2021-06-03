@@ -43,8 +43,8 @@
 
             while($datas = $answer->fetch())
             {
-                echo '<div class="comment-container"> <div class="pseudo-div">' . $datas['pseudo'] . '</div>
-                <div class = "commentary-div">' . $datas['message'] . '</div></div>';
+                echo '<div class="comment-container"> <div class="pseudo-div">' . htmlspecialchars($datas['pseudo']) . '</div>
+                <div class = "commentary-div">' . htmlspecialchars($datas['message']) . '</div></div>';
             }
 
             if (empty($db))
