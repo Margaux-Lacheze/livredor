@@ -29,6 +29,9 @@ body {
     min-height: 130px;
     background: var(--main-color);
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .social-medias {

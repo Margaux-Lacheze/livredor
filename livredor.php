@@ -24,7 +24,7 @@
         </header>
         <section class="form-section">
             <form action="livredor_post.php" method="post" class="form">
-                <input id="pseudo-input" type="text" name="pseudo" placeholder="Pseudo" autofocus required>
+                <input id="pseudo-input" type="text" name="pseudo" placeholder="Pseudo" required>
                 <textarea id="text-input" type="text" name="message" placeholder="Votre message" required></textarea>
                 <button id="button-form" type="submit">Envoyer</button>
             </form>
